@@ -14,13 +14,13 @@ This project is aimed at implementing a Store and warehouse management system wh
 
 ![image](https://user-images.githubusercontent.com/91214809/193731046-b807831d-65d2-4c22-90d6-e538d583250a.png)
 
-#Database Implementation
+# Database Implementation
 In order to prepare this data madel, I have considered forward engineering apprach and designed ER Diagram by defining tables and their attributes, established relationships between them and database objects like tables schema is populated.
 
 
 # Dependencies
 - MSSQL
--Power BI
+- Power BI
 
 
-#Power BI Dashboard
+# Power BI Dashboard
