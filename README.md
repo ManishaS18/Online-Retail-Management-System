@@ -35,12 +35,17 @@ In order to prepare this data madel, I have considered forward engineering appra
    * Yearly Sales Report - This view is created for the Business Managers and Executives to provide them with information about the Sales done in past one year.
    * Product Popularity Report - This view is created for the Business Analysts to help them find the most popular product among customers.
 3. Functions -
+      * fun_totalPrice() -This function is used to create computed column to calculate Total Price from Map Price and Product Quantity
+      * NoInventoryCheck() - This function is used as table level check constraint to make sure enough inventory.A comparison between product quantity and inventory product quantity. When difference is les than zer0 , which means order quantity is more than maximum quantity in the inventory, order will be declined
+
 4. Stored Procedures - NumberofDays() , ReturnReason() , SearchResult()
-      * NumberofDays() - 
-      * ReturnReason() - 
-      * SearchResult() - 
-6. Triggers - 
-7. Transactions - 
+      * NumberofDays() - This stored procedure is created to let the customers know about the estimated delivery date from the date of order.
+      * ReturnReason() - This stored procedure will be used for analysis purpose by understanding the reason for the return of the product.
+      * SearchResult() - This stored procedure could be used as Search button to search for the Product against Subtype.
+5. Triggers - Inventory Increment - This DML trigger is created to increase Product Inventory Quantity 
+6. Encryption - Encryption is done on Customer's Email ID
+7. Non-Clustered Index - Non clustered Index is created on Customer's First Name as that would be widely searched 
+
 
 # Dependencies
 - MSSQL
