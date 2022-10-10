@@ -53,3 +53,13 @@ In order to prepare this data madel, I have considered forward engineering appra
 
 
 # Power BI Dashboard
+
+* Total Inventory by Brand - This visualization will help to understand the quantity of each product type by Brands.
+
+![image](https://user-images.githubusercontent.com/91214809/194791472-372426ce-4d52-4f16-9824-5f1b4441e8aa.png)
+
+* Total Sales Comparison - This visualization will help to understand the total sales per product type.
+
+![image](https://user-images.githubusercontent.com/91214809/194791554-454e9caa-2ee8-4c33-bb4c-8a37412fea72.png)
+
+
