@@ -31,7 +31,7 @@ In order to prepare this data madel, I have considered forward engineering appra
 
 # Database Objects
 1. Tables - Described above
-2. Views - Yearly Sales Report and Product Ppularity Report
+2. Views - Yearly Sales Report and Product Popularity Report
    * Yearly Sales Report - This view is created for the Business Managers and Executives to provide them with information about the Sales done in past one year.
    * Product Popularity Report - This view is created for the Business Analysts to help them find the most popular product among customers.
 3. Functions -
